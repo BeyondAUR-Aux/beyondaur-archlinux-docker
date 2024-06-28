@@ -13,6 +13,9 @@ EOM
 
 pacman -Syu --noconfirm --needed base-devel hx-ghcup-hs libyaml libffi
 
+ghcup install stack latest
+ghcup install ghc latest
+ghcup install cabal latest
 
 ghcup set stack latest
 ghcup set ghc latest
